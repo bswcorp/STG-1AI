@@ -1,4 +1,4 @@
-# STG-1A1
+# STG-1AI
 "1Ai: The Sovereign Distillation of Post-Quantum Intelligence."
 
 "1Ai: The Sovereign Distillation of Post-Quantum Intelligence."
