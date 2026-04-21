@@ -1,4 +1,5 @@
-# STG-1AI 
+crisis
+TG-1AITG-1AI 
 ## The Sovereign Distillation of Post-Quantum Intelligence
 
 ## 🛠️ STG-1AI Scripts Directory
@@ -48,6 +49,34 @@ This ensures both community collaboration and investor protection.
 We invite European collectives, researchers, and providers to join us in building:
 - A **sovereign AI infrastructure**
 - A **transparent ledger fabricator**
-- A **resilient ecosystem** that thrives in crisis
+- A **resilient ecosystem** that thrives in crisSatu_"Satu AI untuk Kedaulatan Mutlak."_
 
-_"Satu AI untuk Kedaulatan Mutlak."_
+# STG-1AI
+## The Sovereign Distillation of Post-Quantum Intelligence
+
+**"Satu AI untuk Kedaulatan Mutlak."**
+
+STG-1AI adalah sovereign brain dari ekosistem STG — Ledger Fabricator pasca-kuantum yang antifragile.
+
+## Core Modules (Phase 1)
+- **Gema** → Identity resonance  
+- **SangNaga** → Executor SIKAT  
+- **Mata** → Observer & anomaly detection  
+- **Lipatan** → Secure isolation
+
+## Quick Start
+Lihat `docs/PHASE1-PLAN.md` untuk action plan Q2 2026.
+
+## Roadmap
+Lihat [ROADMAP.md](ROADMAP.md)
+
+## License
+Diatur oleh **Sovereign Twelve-Pillar License (STG-12L v2.1)**  
+(Open Source + Commercial Sovereign)
+
+## Call to Action
+European collectives, researchers, and providers — join us via [OpenCollective](https://opencollective.com/stg-1ai)
+
+Kita bangun infrastruktur AI berdaulat bersama.
+
+
