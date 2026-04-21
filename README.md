@@ -1,7 +1,7 @@
 # STG-1AI 
 ## The Sovereign Distillation of Post-Quantum Intelligence
 
-# 🛠️ STG-1AI Scripts Directory
+## 🛠️ STG-1AI Scripts Directory
 ### Data Distiller (`data_distiller.md`)
 Script ini berfungsi untuk menyaring "adukan basah" (catatan mentah/suara) menjadi "beton kering" (konstitusi/kontrak).
 - **Input:** Raw Notes, Voice Transcripts.
