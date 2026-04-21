@@ -1,6 +1,6 @@
 
 # STG-1AI 
-##The Sovereign Distillation of Post-Quantum Intelligence
+## The Sovereign Distillation of Post-Quantum Intelligence
 
 ## Vision
 STG-1AI is not just another AI project. It is the **sovereign brain** of the STG ecosystem, designed to withstand quantum disruption and embody technological independence.  
