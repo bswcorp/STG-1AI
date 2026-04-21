@@ -1,6 +1,13 @@
-
 # STG-1AI 
 ## The Sovereign Distillation of Post-Quantum Intelligence
+
+# 🛠️ STG-1AI Scripts Directory
+### Data Distiller (`data_distiller.md`)
+Script ini berfungsi untuk menyaring "adukan basah" (catatan mentah/suara) menjadi "beton kering" (konstitusi/kontrak).
+- **Input:** Raw Notes, Voice Transcripts.
+- **Process:** Applying 1AI Bourbon Distillation.
+- **Output:** Structured Smart Contracts & Blueprints.
+- 
 
 ## Vision
 STG-1AI is not just another AI project. It is the **sovereign brain** of the STG ecosystem, designed to withstand quantum disruption and embody technological independence.  
