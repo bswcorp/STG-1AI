@@ -114,5 +114,16 @@ Statement: *“STG Vault Unit 008 contains collateral >= 100,000 STG tokens”*
 Kami menggunakan format **Conventional Commits**:
 
 
+### Types
+- feat, fix, docs, legal, ci, security, infra
+
+### Scope
+Contoh: readme, governance, license, ci, security, dashboard
+
+### Impact
+Tambahkan bagian *Impact* untuk menjelaskan nilai strategis perubahan.
+
+
+
 
 
