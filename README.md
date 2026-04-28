@@ -1,5 +1,3 @@
-crisis
-TG-1AITG-1AI 
 ## The Sovereign Distillation of Post-Quantum Intelligence
 
 ## 🛠️ STG-1AI Scripts Directory
