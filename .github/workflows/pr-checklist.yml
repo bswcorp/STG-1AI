@@ -1,0 +1,38 @@
+name: PR Checklist Enforcement
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize]
+
+jobs:
+  checklist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check PR body for checklist completion
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.pull_request.body || "";
+            const requiredChecks = [
+              "KBLI/NIB/OSS status valid",
+              "RSA signature/UBO identity diverifikasi",
+              "Proof of Reserve (PoR) hash diperbarui",
+              "Zero-Knowledge Proof (ZKP) certificate diverifikasi",
+              "SECURITY-CHECKLIST.md diperbarui",
+              "Fail-fast CI mode aktif"
+            ];
+
+            let missing = [];
+            for (const check of requiredChecks) {
+              if (!body.includes("[x] " + check)) {
+                missing.push(check);
+              }
+            }
+
+            if (missing.length > 0) {
+              core.setFailed(
+                `PR checklist incomplete. Missing checks:\n- ${missing.join("\n- ")}`
+              );
+            } else {
+              core.info("All required checklist items are completed ✅");
+            }
