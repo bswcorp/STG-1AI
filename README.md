@@ -123,6 +123,17 @@ Contoh: readme, governance, license, ci, security, dashboard
 ### Impact
 Tambahkan bagian *Impact* untuk menjelaskan nilai strategis perubahan.
 
+docs(readme): add Proof of Sovereignty section
+
+- Added PoR hash and ZKP certificate to README.md
+- Introduced compliance narrative (Selective Disclosure, AML/KYC, Data Sovereignty)
+- Added CONTRIBUTING.md with commit standards
+- Added PR checklist template for compliance/security
+- Added GitHub Actions workflow to enforce checklist completion
+
+Impact:
+Strengthens governance and compliance posture of STG-1AI, ensuring transparency and investor/regulator trust.
+
 
 
 
