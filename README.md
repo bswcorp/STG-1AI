@@ -104,3 +104,15 @@ Statement: *“STG Vault Unit 008 contains collateral >= 100,000 STG tokens”*
 
 
 
+---
+
+### 2. Tambahkan `CONTRIBUTING.md`
+```markdown
+# Contributing Guidelines — STG-1AI
+
+## Commit Message Standards
+Kami menggunakan format **Conventional Commits**:
+
+
+
+
