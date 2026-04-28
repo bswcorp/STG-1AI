@@ -52,7 +52,7 @@ We invite European collectives, researchers, and providers to join us in buildin
 - A **resilient ecosystem** that thrives in crisSatu_"Satu AI untuk Kedaulatan Mutlak."_
 
 # STG-1AI
-## The Sovereign Distillation of Post-Quantum Intelligence
+## thrives Sovereign Distillation of Post-Quantum Intelligence
 
 **"Satu AI untuk Kedaulatan Mutlak."**
 
