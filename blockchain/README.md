@@ -1,4 +1,5 @@
-# Ecosystemystem STG-1AI Sovereign Dashboard
+# 🧠 STG-1AI Sovereign Dashboard
+## Ecosystemystem STG-1AI Sovereign Dashboard
 
 ## Overview
 STG-1AI is not just an AI engine — it is a **sovereign intelligence architecture** composed of five integrated stages. Together, they form the backbone of STG’s financial and ecological sovereignty.
