@@ -1,5 +1,15 @@
 ## The Sovereign Distillation of Post-Quantum Intelligence
 
+# ⚡ STG‑AI — Sovereign Intelligence Engine
+
+![STG‑AI Logo](assets/STG-AI-logo.png)
+
+> _“Executor of Notes into Sovereign Ledgers.”_
+
+STG‑AI adalah inti kecerdasan berdaulat dari ekosistem STG‑Chain — mengubah data mentah menjadi artefak yang terverifikasi secara diplomatik dan teknologis.
+
+
+
 ## 🛠️ STG-1AI Scripts Directory
 ### Data Distiller (`data_distiller.md`)
 Script ini berfungsi untuk menyaring "adukan basah" (catatan mentah/suara) menjadi "beton kering" (konstitusi/kontrak).
