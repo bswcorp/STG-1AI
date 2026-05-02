@@ -1,4 +1,5 @@
 # 🎨 STG‑AI Branding Guide
+![STG‑AI Logo](assets/STG-AI-logo.png)
 
 ## Warna Utama
 | Elemen | Warna | Makna |
