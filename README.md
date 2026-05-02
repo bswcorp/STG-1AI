@@ -1,6 +1,6 @@
-## The Sovereign Distillation of Post-Quantum Intelligence
+# The Sovereign Distillation of Post-Quantum Intelligence
 
-# ⚡ STG‑AI — Sovereign Intelligence Engine
+## ⚡ STG‑AI — Sovereign Intelligence Engine
 
 ![STG‑AI Logo](assets/STG-AI-logo.png)
 
