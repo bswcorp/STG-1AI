@@ -76,6 +76,23 @@
       <p>Menghubungkan STG‑AI dengan QSTATE, STG‑Chain, dan sistem diplomatik global.</p>
     </div>
   </section>
+  fetch('http://localhost:3001/api/distill', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+        text: "data dari QSTATE panel"
+    })
+})
+.then(res => res.json())
+.then(data => {
+    document.querySelector('.center-panel .log').innerHTML = `
+        Status: ACTIVE<br>
+        Output: ${data.output}<br>
+        Words: ${data.distilled_length}
+    `;
+});
 </body>
 </html>
 
