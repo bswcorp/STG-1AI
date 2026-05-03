@@ -52,4 +52,14 @@ docs(governance): update sovereign documentation
 Impact:
 Provides clear governance and branding framework for STG-Chain.
 
+ci(strict-mode): synchronize branding across workflows
+
+- Applied STG-AI branding to all dashboards (energy, water, infra, mobility, human, public)
+- Updated branding-sync workflow for auto rebuild on asset or guide changes
+- Removed inconsistent legacy styles from CI pipeline
+- Verified CI pipeline with fail-fast checks for branding consistency
+- Ensured audit-ready logs for sovereign compliance
+
+Impact:
+Guarantees visual and operational consistency across STG-Chain workflows, with automated rebuild and sovereign audit trail.
 
