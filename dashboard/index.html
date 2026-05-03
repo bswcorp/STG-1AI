@@ -85,6 +85,9 @@
         text: "data dari QSTATE panel"
     })
 })
+const fs = require('fs');
+fs.appendFileSync('log.json', JSON.stringify(result) + "\n");
+ body
 .then(res => res.json())
 .then(data => {
     document.querySelector('.center-panel .log').innerHTML = `
@@ -93,6 +96,9 @@
         Words: ${data.distilled_length}
     `;
 });
-</body>
+</odyody
+app.get('/api/status', (req, res) => {
+    res.json({ status: "STG-1AI ACTIVE" });
+});  odydy>
 </html>
 
