@@ -1,1 +1,25 @@
-
+name: Workflow 91 - Humanitarian Response
+on:
+  schedule:
+    - cron: '0 6 * * *'   # Eksekusi setiap hari pukul 06.00 WIB
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: Generate Humanitarian Report
+        run: |
+          echo "## Humanitarian Response Report" > REPORT-HUMANITARIAN.md
+          echo "- Food Aid: 1.2M meals/day" >> REPORT-HUMANITARIAN.md
+          echo "- Water Supply: 500k liters/day" >> REPORT-HUMANITARIAN.md
+          echo "- Shelter Units: 25k families" >> REPORT-HUMANITARIAN.md
+          echo "- Medical Support: 120k patients/month" >> REPORT-HUMANITARIAN.md
+      - name: Commit & Push
+        run: |
+          git config --global user.name 'STG-AI Bot'
+          git config --global user.email 'stg-ai@sovereign-titan.genesis'
+          git add REPORT-HUMANITARIAN.md
+          git commit -m "Workflow 91: Humanitarian Response Report"
+          git push
+          
