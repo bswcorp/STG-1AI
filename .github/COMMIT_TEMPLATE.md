@@ -83,6 +83,21 @@ reports(sync): align sovereign reports with STG-AI branding
 - Ensured all reports follow BRANDING_GUIDE.md (colors, typography, pattern)
 - Synced reports with branding-sync workflow for auto rebuild
 
+
+reports(sync): align sovereign reports with STG-AI branding
+
+- Updated REPORT-FOOD.md with STG-AI style and dashboard link
+- Updated REPORT-WATER.md with branding guide references
+- Updated REPORT-INFRA.md to include smart city metrics and logo
+- Updated REPORT-MOBILITY.md with sovereign mobility governance
+- Ensured all reports follow BRANDING_GUIDE.md (colors, typography, pattern)
+- Synced reports with branding-sync workflow for auto rebuild
+
+Impact:
+Guarantees sovereign reports are visually consistent, audit-ready, and aligned with STG-AI branding across all domains.
+
+
+
 Impact:
 Guarantees sovereign reports are visually consistent, audit-ready, and aligned with STG-AI branding across all domains.
 
