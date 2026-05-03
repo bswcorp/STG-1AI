@@ -1,0 +1,47 @@
+name: Dispatch Workflow 91 - Humanitarian Response
+on:
+  workflow_dispatch:   # Bisa dipicu manual dari GitHub Actions tab
+  schedule:
+    - cron: '0 6 * * *'   # Eksekusi otomatis setiap hari pukul 06.00 WIB
+
+jobs:
+  propagate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Setup Git
+        run: |
+          git config --global user.name 'STG-AI Bot'
+          git config --global user.email 'stg-ai@sovereign-titan.genesis'
+
+      - name: Propagate REPORT-HUMANITARIAN.md
+        run: |
+          REPOS=(
+            "bswcorp/Sovereign-Titan-Genesis"
+            "bswcorp/TITAN-PSYCHE-MONO"
+            "bswcorp/METAPORTATION"
+            "bswcorp/STG-METAPORTATION-EVENT"
+            "bswcorp/Quorum-State"
+            "bswcorp/qs-guardian-search"
+            "bswcorp/Qubicoin"
+            "bswcorp/quantum-swap-engine"
+            "bswcorp/Garage"
+            "bswcorp/Makronesia-Act-Ark"
+            "bswcorp/STG-1AI"
+            "bswcorp/Jasawan"
+          )
+
+          for repo in "${REPOS[@]}"; do
+            echo ">>> Dispatching to $repo"
+            git clone https://github.com/$repo temp-$repo
+            cd temp-$repo || exit
+            cp ../REPORT-HUMANITARIAN.md .
+            git add REPORT-HUMANITARIAN.md
+            git commit -m "Workflow 91: Humanitarian Response Report"
+            git push origin main
+            cd ..
+            rm -rf temp-$repo
+          done
+          
