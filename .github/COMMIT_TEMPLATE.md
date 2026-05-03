@@ -63,3 +63,15 @@ ci(strict-mode): synchronize branding across workflows
 Impact:
 Guarantees visual and operational consistency across STG-Chain workflows, with automated rebuild and sovereign audit trail.
 
+
+
+docs(governance): update sovereign documentation with STG-AI branding
+
+- Replaced outdated README.md with canonical STG-AI version
+- Added BRANDING_GUIDE.md for official style references
+- Synced dashboard links in documentation (energy, water, infra, mobility, human, public)
+- Updated CONTRIBUTING.md to reflect sovereign workflow standards
+- Ensured REPORT files (REPORT-FOOD.md, REPORT-WATER.md, REPORT-INFRA.md, REPORT-MOBILITY.md) follow branding guide
+
+Impact:
+Provides clear governance and branding framework for STG-Chain, ensuring audit-ready documentation and visual consistency.
