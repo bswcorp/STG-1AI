@@ -1,0 +1,56 @@
+name: Branding Sync
+
+on:
+  push:
+    paths:
+      - "assets/STG-AI-logo.png"
+      - "BRANDING_GUIDE.md"
+  workflow_dispatch:
+
+jobs:
+  sync-branding:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Apply Branding to Dashboards
+        run: |
+          for module in energy water infra mobility human public; do
+            mkdir -p public/$module
+            cat > public/$module/index.html <<EOF
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <meta charset="UTF-8">
+              <title>STG-AI Sovereign Dashboard — $module</title>
+              <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto&display=swap" rel="stylesheet">
+              <style>
+                body { background:#0A0A0A; color:#FFF; font-family:'Roboto',sans-serif; text-align:center; }
+                header { background:linear-gradient(90deg,#00AEEF,#00FFFF,#FF6A00); padding:20px; }
+                header img { width:140px; margin-bottom:10px; }
+                h1 { font-family:'Orbitron',sans-serif; font-size:2em; margin:0; }
+              </style>
+            </head>
+            <body>
+              <header>
+                <img src="../../assets/STG-AI-logo.png" alt="STG-AI Logo">
+                <h1>STG-AI Sovereign Dashboard — $module</h1>
+              </header>
+              <section>
+                <h2>Executor of Notes into Sovereign Ledgers</h2>
+                <p>STG-AI mengorkestrasi data $module menjadi laporan berdaulat.</p>
+              </section>
+            </body>
+            </html>
+            EOF
+          done
+
+      - name: Commit Branding Updates
+        run: |
+          git config --global user.name "stg-ai-bot"
+          git config --global user.email "stg-ai@sovereign.local"
+          git add public/*/index.html
+          git commit -m "Sync branding across dashboards with STG-AI style"
+          git push
+          
